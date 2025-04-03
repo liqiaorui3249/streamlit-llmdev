@@ -25,6 +25,7 @@ if st.button("Say hello"):
 else:
     st.write("Goodbye")
 st.divider()
+st.write("图片控制")
 enable = st.checkbox("Enable camera")
 picture = st.camera_input("Take a picture", disabled=not enable)
 
