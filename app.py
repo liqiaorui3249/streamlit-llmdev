@@ -69,6 +69,5 @@ data=st.file_uploader("Upload a csv")
 
 st.sidebar.write("This lives in the sidebar")
 st.sidebar.divider()
-st.sidebar.write("侧边栏")
 st.sidebar.button("click me!")
 
