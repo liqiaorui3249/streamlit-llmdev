@@ -96,8 +96,8 @@ if prompt:
 st.divider()
 st.write("聊天消息")
 import numpy as np
-with st.chat_message("user")
+with st.chat_message("user"):
      st.write("hello")
      st.line_chart(np.random.randn(30,3))
-with st.chat_message("ai")
+with st.chat_message("ai"):
      st.write("I am an AI assistant")
