@@ -61,3 +61,7 @@ choice=st.number_input("pick a number,0,10")
 st.divider()
 st.write("多行框")
 text=st.text_area("text to translate")
+
+st.divider()
+st.write("上传")
+data=st.file_uploader("Upload a csv")
