@@ -57,3 +57,7 @@ st.write(f"Hello{name}")
 st.divider()
 st.write("选择框")
 choice=st.number_input("pick a number,0,10")
+
+st.divider()
+st.write("多行框")
+text=st.text_area("text to translate")
