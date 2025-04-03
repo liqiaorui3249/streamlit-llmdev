@@ -65,3 +65,8 @@ text=st.text_area("text to translate")
 st.divider()
 st.write("上传")
 data=st.file_uploader("Upload a csv")
+
+st.divider()
+st.write("侧边栏")
+st.sidebar.write("This lives in the sidebar")
+st.sidebar.button("click me!")
