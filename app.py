@@ -66,7 +66,11 @@ st.divider()
 st.write("上传")
 data=st.file_uploader("Upload a csv")
 
+
+st.sidebar.write("This lives in the sidebar")
 st.divider()
 st.write("侧边栏")
-st.sidebar.write("This lives in the sidebar")
 st.sidebar.button("click me!")
+st.divider()
+st.write("侧边栏")
+st.sidebar.page_link("app.py",label="home" icon="🚨")
