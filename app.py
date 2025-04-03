@@ -73,9 +73,10 @@ st.sidebar.button("click me!")
 
 st.divider()
 st.write("扩展器")
-with st.expander("open to see more")
+with st.expander("open to see more"):
      st.write("this is more content")
      st.write("this is another content")
+     st.image("https://static.streamlit.io/examples/dice.jpg")
 
 st.divider()
 st.write("标签页")
