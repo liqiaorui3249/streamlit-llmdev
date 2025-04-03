@@ -53,3 +53,7 @@ st.divider()
 st.write("输入框")
 name=st.text_input("First name")
 st.write(f"Hello{name}")
+
+st.divider()
+st.write("选择框")
+choice=st.number_input("pick a number,0,10")
