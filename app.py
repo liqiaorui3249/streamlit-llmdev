@@ -71,6 +71,4 @@ st.sidebar.write("This lives in the sidebar")
 st.divider()
 st.write("侧边栏")
 st.sidebar.button("click me!")
-st.divider()
-st.write("侧边栏")
-st.page_link("app.py",label="home")
+
