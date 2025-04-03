@@ -1,5 +1,17 @@
+
 import streamlit as st
 st.title("hello llm dev")
 st.write("I am fine")
 st.info("Hello lqr")
 st.header("Hello everyone")
+st.write_stream(my_generator)
+st.markdown("Hello **world**!")
+st.subheader("This is a subheader")
+st.badge("New")
+st.caption("This is written small caption text")
+st.code("a = 1234")
+st.latex("\int a x^2 \,dx")
+st.html("<p>Foo bar.</p>")
+st.dataframe(my_data_frame)
+st.feedback(options="thumbs", *, key=None, disabled=False, on_change=None, args=None, kwargs=None)
+st.select_slider(label, options=(), value=None, format_func=special_internal_function, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")
