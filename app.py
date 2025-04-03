@@ -71,3 +71,34 @@ st.sidebar.write("This lives in the sidebar")
 st.sidebar.divider()
 st.sidebar.button("click me!")
 
+st.divider()
+st.write("扩展器")
+with st.expander("open to see more")
+     st.write("this is more content")
+     st.write("this is another content")
+
+st.divider()
+st.write("标签页")
+tab1,tab2=st.tabs(["tab1","tab2"])
+tab1.write("this is tab1")
+tab2.write("this is tab2")
+
+st.divider()
+st.write("聊天输入")
+myname=st.text_input("First_name")
+if name:
+    st.write(f"Hello {myname}")
+prompt=st.chat_input("say something")
+if prompt:
+    st.write(f"the user has sent:{prompt}")
+
+st.divider()
+st.write("聊天消息")
+import numpy as np
+with st.chat_message("user")
+     st.write("hello")
+     st.line_chart(np.random.randn(30,3))
+with st.chat_message("ai")
+     st.write("I am an AI assistant")
+
+
