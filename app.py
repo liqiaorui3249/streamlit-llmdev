@@ -49,3 +49,7 @@ d = st.date_input(
     format="MM.DD.YYYY",
 )
 d
+st.divider()
+st.write("输入框")
+name=st.text_input("First name")
+st.write(f"Hello{name}")
