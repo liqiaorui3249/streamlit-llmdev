@@ -16,3 +16,10 @@ st.caption("This is written small caption text")
 st.code("a = 1234")
 st.latex("\int a x^2 \,dx")
 st.html("<p>Foo bar.</p>")
+st.button("Reset", type="primary")
+st.divider()
+if st.button("Say hello"):
+    st.write("Why hello there")
+else:
+    st.write("Goodbye")
+st.divider()
