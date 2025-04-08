@@ -33,9 +33,7 @@ if picture:
     st.image(picture)
 
 
-st.html("<p><a href='streamlit.py' target='_blank'>Streamlit 是一个开源的python库</a></p>")
-
-st.html("<p><a href='http://www.xbrc.com.cn' target='_blank'>Streamlit 是一个开源的python库</a></p>")
+st.markdown('<a href="http://www.xbrc.com.cn" target="_blank">西北人才网</a>', unsafe_allow_html=True)
 
 These are featured components create
 
