@@ -33,7 +33,7 @@ if picture:
     st.image(picture)
 
 
-st.html("<p><a href="streamlit.py" target="_blank">Streamlit 是一个开源的python库</a></p>")
+st.html("<p><a href='streamlit.py' target='_blank'>Streamlit 是一个开源的python库</a></p>")
 
 
 
