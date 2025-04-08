@@ -41,7 +41,7 @@ def to_message_place_holder(messages):
 	
 chain = {
 	'input':lambda x: x['input'],
-	'history':lambda x:to_message_place_holder(st.session_state.messages)
+	'history':lambda x:to_message_place_holder(x['messages'])
 } | prompt | model | StrOutputParser()
 
 #构建页面
