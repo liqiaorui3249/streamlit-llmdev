@@ -35,7 +35,7 @@ if picture:
 
 st.markdown('<a href="http://www.xbrc.com.cn" target="_blank">西北人才网</a>', unsafe_allow_html=True)
 
-These are featured components create
+
 
 st.divider()
 st.write("时间控件")
