@@ -11,7 +11,7 @@ from pydantic import BaseModel
 #通义大模型
 from langchain_community.chat_models.tongyi import ChatTongyi 
 #提示词模型
-from langchain_core.prompts import PromptTemplate,MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
 #输出的解析器
 from langchain_core.output_parsers import StrOutputParser
 #定义大模型
