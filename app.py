@@ -6,7 +6,7 @@ import streamlit as st
 
 #页面的左半部分展示聊天内容，右半部分展示聊天记录
 
-from pydantic import BaseModel
+#from pydantic import BaseModel
 
 #通义大模型
 from langchain_community.chat_models.tongyi import ChatTongyi 
