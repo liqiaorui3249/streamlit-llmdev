@@ -65,7 +65,7 @@ with left:
 			     st.write(prompt)
 	#获取大模型的返回，并展示
 	with container:
-		response = st.write_stream(chain.stream({"input":prompt}))
+		response = st.write_stream(chain.stream({"input":prompt,'messages':st.session_state.messages}))
 		st.session_state.messages.append(Message(content=response,role="ai").model_dump())
 		
 	
