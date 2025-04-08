@@ -35,7 +35,7 @@ if "messages" not in st.session_state:
 	
 def to_message_place_holder(messages):
 	return [
-		Message(content=message['content']) if message['role']=="ai" else HumanMessage(content=message['content']) 
+		AIMessage(content=message['content']) if message['role']=="ai" else HumanMessage(content=message['content']) 
 		for message in messages
 	]
 	
