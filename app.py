@@ -40,8 +40,8 @@ def to_message_place_holder(messages):
 	]
 	
 chain = {
-	'input':lambda x: x['input']
-	'history':lambda:to_message_place_holder(st.session_state.messages)
+	'input':lambda x: x['input'],
+	'history':lambda x:to_message_place_holder(st.session_state.messages)
 } | prompt | model | StrOutputParser()
 
 #构建页面
