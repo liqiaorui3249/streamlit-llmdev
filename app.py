@@ -32,12 +32,10 @@ picture = st.camera_input("Take a picture", disabled=not enable)
 if picture:
     st.image(picture)
 
-
-st.markdown('<a href="http://www.xbrc.com.cn" target="_blank">西北人才网</a>', unsafe_allow_html=True)
-
-
-
 st.divider()
+st.markdown('<a href="http://www.xbrc.com.cn" target="_blank">西北人才网</a>', unsafe_allow_html=True)
+st.divider()
+
 st.write("时间控件")
 
 today = datetime.datetime.now()
